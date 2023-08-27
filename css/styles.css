@@ -1,6 +1,44 @@
+body {
+    margin: 0;
+}
+
+* {
+    color: #fff;
+}
+
 .storefront-wrapper {
     height: 100vh;
     width: 100%;
     background-color: #000;
+    box-sizing: border-box;
 }
 
+header {
+    height: 30vh;
+    border: solid 3px #c5c34e;
+    box-sizing: border-box;
+}
+
+main {
+    height: 70vh;
+    border: solid 3px #c5c34e;
+    border-top: none;
+    box-sizing: border-box;
+}
+
+.facade{
+    display: flex;
+}
+
+.door {
+    height: 70vh;
+    width: 30vh;
+    border: solid 3px #c5c34e;
+    border-top: none;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+footer {
+    height: 100vh;
+}
